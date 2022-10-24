@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CameraAutomatizer</string>
+    <string name="cim">Light Calculator</string>
+    <string name="radioAperture">Aperture</string>
+    <string name="radioShutter">Shutter</string>
+    <string name="radioIso">ISO</string>
+    <string name="measureButton">Hold to \nmeasure</string>
+    <string name="shutterLabel">Shutter</string>
+    <string name="isoLabel">ISO</string>
+    <string name="apertureLabel">Aperture</string>
+</resources>
