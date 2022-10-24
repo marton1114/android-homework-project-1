@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="137dp"
+        android:layout_height="23dp"
+        android:text="Value to calculate"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        tools:layout_editor_absoluteX="137dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="129dp">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:text="Aperture" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:text="Shutter" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:text="ISO" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="151dp"
+        android:layout_height="39dp"
+        android:gravity="center"
+        android:text="2.5f"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="103dp"
+        android:layout_height="34dp"
+        android:gravity="bottom"
+        android:text="Aperture"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        tools:layout_editor_absoluteX="155dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="151dp"
+        android:layout_height="39dp"
+        android:gravity="center"
+        android:text="200"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="489dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="106dp"
+        android:layout_height="31dp"
+        android:gravity="bottom"
+        android:text="ISO"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView17"
+        tools:layout_editor_absoluteX="155dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:isScrollContainer="false"
+        android:textAlignment="center"
+        app:icon="@drawable/plus_icon_21715"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="10dp"
+        app:iconTint="#FFFFFF"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="483dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:isScrollContainer="false"
+        android:textAlignment="center"
+        app:icon="@drawable/minus"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="10dp"
+        app:iconTint="#FFFFFF"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="483dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:isScrollContainer="false"
+        android:textAlignment="center"
+        app:icon="@drawable/minus"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="10dp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="151dp"
+        android:layout_height="39dp"
+        android:gravity="center"
+        android:text="1/200"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:isScrollContainer="false"
+        android:textAlignment="center"
+        app:icon="@drawable/minus"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="10dp"
+        app:iconTint="#FFFFFF"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:isScrollContainer="false"
+        android:textAlignment="center"
+        app:icon="@drawable/plus_icon_21715"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="10dp"
+        app:iconTint="#FFFFFF"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="108dp"
+        android:layout_height="33dp"
+        android:gravity="bottom"
+        android:text="Shutter"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        tools:layout_editor_absoluteX="155dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:isScrollContainer="false"
+        android:textAlignment="center"
+        app:icon="@drawable/plus_icon_21715"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="10dp"
+        app:iconTint="#FFFFFF"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
